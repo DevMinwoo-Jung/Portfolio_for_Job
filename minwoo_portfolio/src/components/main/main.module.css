@@ -1,0 +1,26 @@
+.main {
+  position: relative;
+}
+
+.para {
+  font-size: 11vw;
+  margin: 0px;
+  letter-spacing: -25px;
+  font-weight: bold;
+}
+
+.top__div {
+}
+
+.img__div {
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+}
+
+.bottom__div {
+  position: absolute;
+  top: 62vh;
+}

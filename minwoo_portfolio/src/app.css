@@ -1,12 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +17,32 @@
 
 .App-link {
   color: #61dafb;
+}
+
+a {
+  color: red;
+} /* Globally */
+
+/* Each state */
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 @keyframes App-logo-spin {

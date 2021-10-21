@@ -1,8 +1,8 @@
 import './app.css';
-
+import Header from './components/header/header';
 function App() {
   return (
-    <h1>안녕</h1>
+    <Header/> 
   );
 }
 
