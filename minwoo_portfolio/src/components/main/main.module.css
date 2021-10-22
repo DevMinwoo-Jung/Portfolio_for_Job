@@ -3,24 +3,26 @@
 }
 
 .para {
-  font-size: 11vw;
+  font-size: 12.5vw;
   margin: 0px;
-  letter-spacing: -25px;
-  font-weight: bold;
+  letter-spacing: -20px;
+  font-weight: 20;
 }
 
 .top__div {
+  margin-left: 2%;
 }
 
 .img__div {
 }
-
+/* 
 .img {
-  width: 400px;
-  height: 400px;
-}
+  width: 10vw;
+  height: 10vh;
+} */
 
 .bottom__div {
   position: absolute;
-  top: 62vh;
+  top: 60vh;
+  margin-left: 2%;
 }

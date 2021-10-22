@@ -7,6 +7,7 @@
   margin: auto;
   justify-content: space-evenly;
   font-size: 3rem;
+  border-bottom: 0.1rem solid gray;
 }
 
 .content {
