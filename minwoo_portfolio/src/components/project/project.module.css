@@ -4,9 +4,8 @@
 }
 
 .img__div {
-  border: 1px solid black;
-  width: 50rem;
-  height: 40rem;
+  width: 90vw;
+  height: 60vh;
   margin: 5rem 2rem 0 0;
 }
 
@@ -22,43 +21,27 @@
 .img {
   max-width: 100%;
   max-height: 50%;
-  width: 50%;
-  height: 40rem;
-  border: 1px solid black;
+  width: 90%;
+  height: 40vh;
+  margin: auto;
+}
+
+.img__para {
+  width: 90%;
+  margin: auto;
 }
 
 .img__a {
   display: block;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 
-.slick-dots .slick-thumb {
-  justify-content: space-evenly;
+.img__contatiner {
+  border: 1px solid black;
 }
 
-.slick-prev:before,
-.slick-next:before {
-  font-family: "slick";
-  font-size: 20px;
-  line-height: 1;
-
-  opacity: 0.75;
-  color: rgb(0, 0, 0) !important;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.slick-prev,
-.slick-next {
-  font-family: "slick";
-  font-size: 20px;
-  line-height: 1;
-
-  opacity: 0.75;
-  color: rgb(0, 0, 0) !important;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.logo__div {
+  margin-top: 2rem;
+  justify-content: center;
 }

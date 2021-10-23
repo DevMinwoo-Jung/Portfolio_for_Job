@@ -17,8 +17,5 @@ const Main = () => {
   );
 };
 
-function fancyImg(){
-
-}
 
 export default Main;
