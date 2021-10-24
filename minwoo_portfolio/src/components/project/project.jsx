@@ -1,15 +1,6 @@
 import React from 'react';
 import style from './project.module.css';
 import Slider from "react-slick";
-import styled from "styled-components";
-
-const Arrow = styled.div`
-.slick-prev:before {
-  color: black; 
-}
-.slick-next:before {
-  color: black;
-}`
 
 
 const Project = () => {
@@ -19,12 +10,12 @@ const Project = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    arrows:false,
   };
 
   return (
       <div className={style.content__div}>
         <div className={style.img__div}>
-      <Arrow>
         <Slider {...settings}>
           <div>
             <div className={style.img__contatiner}>
@@ -52,7 +43,6 @@ const Project = () => {
             <img className={style.img} src={`/imgs/reset.png`} alt=""/>
           </div>
         </Slider>
-      </Arrow>
         </div>
       </div>
   );
