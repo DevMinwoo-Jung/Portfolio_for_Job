@@ -1,13 +1,31 @@
-.contact__div {
-  width: 70vw;
+.contact {
+  display: flex;
+  margin: auto;
+}
+
+.contact__Leftdiv {
+  width: 45vw;
   height: 80vh;
   margin: auto;
   margin-top: 5vh;
 }
 
+.contact__Rightdiv {
+  width: 50vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 5vh;
+  margin-right: 5rem;
+  text-align: right;
+}
+
 .contact__para {
   display: flex;
   margin-left: 5vw;
+}
+
+.contact__Rightpara {
+  display: block;
 }
 
 .bigPara {
@@ -17,6 +35,11 @@
 
 .mediumPara {
   font-size: 4vw;
+  margin: 22% 0 0 0;
+}
+
+.smallPara {
+  font-size: 2vw;
   margin: 12% 0 0 0;
 }
 
@@ -28,4 +51,41 @@
 
 .contact {
   margin-top: 1rem;
+}
+
+.copyBtn {
+  transition: all 1s ease-in-out;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.copyBtn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.tooltip__show {
+  visibility: visible;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 1rem;
+  position: relative;
+  z-index: 1;
+  top: -5px;
+}
+
+.email__icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.right__div_bigPara {
+  font-size: 5vw;
+}
+
+.right__div_mediumPara {
+  font-size: 2.5vw;
 }
