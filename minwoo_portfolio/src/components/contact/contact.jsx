@@ -10,7 +10,7 @@ const Contact = () => {
 
   const copyPhone = (event) => {
     const target = String(event.target.parentElement.innerText);
-    navigator.clipboard.writeText(target.substring(target.match(":").index + 1, target.match(" ").index + 1));
+    navigator.clipboard.writeText(target.substring(target.match(":").index + 1, target.match(" ").index - 4));
   }
   
   const showMessage = () => {
@@ -39,17 +39,17 @@ const Contact = () => {
       </div>
       <div className={style.contacts}>
         <div className={style.contact}>
-          <span className={style.contact__contents}><BsPhone/>Phone:{`(82)010-1111-2222`}</span>
+          <span className={style.contact__contents}><BsPhone/>Phone:{`(82)010-1111-2222 `}</span>
           <AiOutlineCopy className={style.copyBtn} onClick={copyPhone} onMouseOver={showMessage} onMouseLeave={hideMessage}/>
           {
-            showMsg === true &&  <span className={style.tooltip__show}> 번호 복사하기</span>
+            showMsg === true &&  <span className={style.tooltip__show}> copy to clipboard</span>
           }
         </div>
         <div className={style.contact}>
           <span className={style.contact__contents}><AiOutlineMail/>Email:hong@gmail.com</span> 
           <AiOutlineCopy className={style.copyBtn} onClick={copyPhone} onMouseOver={showMessageEmail} onMouseLeave={hideMessageEmail}/>
           {
-            showMsgEmail === true &&  <span className={style.tooltip__show}> 이메일 복사하기</span>
+            showMsgEmail === true &&  <span className={style.tooltip__show}> copy to clipboard</span>
           }
         </div>
         <div className={style.contact}>

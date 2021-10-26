@@ -1,0 +1,150 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.about__div {
+  display: block;
+}
+
+.introduce__div {
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+}
+
+.para__div {
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+  height: 70%;
+}
+
+.introduce__header {
+  font-size: 2vw;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.introduce__para {
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: 0.2rem;
+}
+
+.photo__div {
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+  height: 60%;
+}
+.tech__div {
+  border: 1px solid black;
+  width: 95vw;
+  height: 95vh;
+  margin: auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.showBtn__div {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: right;
+  right: 0;
+  margin: 2rem 4rem 0 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.skills {
+  display: block;
+  margin-left: 5%;
+}
+
+.tech__para {
+  padding-top: 3%;
+  margin: auto;
+  font-size: 3vw;
+  font-style: italic;
+  margin-bottom: 1%;
+}
+
+.img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+  display: block;
+}
+
+.skill__para {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: left;
+  margin: 0;
+}
+
+.skillDesc__div {
+  display: flex;
+}
+
+.skill__img {
+  display: block;
+}
+
+.imgAndIcon__div {
+  display: flex;
+  width: 10vw;
+  height: 5vh;
+}
+
+.skillName {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.skillGraph__div {
+  width: 70vw;
+  height: 2vh;
+  border: 1px solid black;
+  vertical-align: middle;
+  margin: 1rem;
+}
+
+.life__div {
+  width: 95vw;
+  height: 95vh;
+  margin: auto;
+  text-align: center;
+}
+
+.life__header {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+.careerEdu__div {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 4%;
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+.innder__header {
+  font-size: 2vw;
+  font-weight: bold;
+  font-style: italic;
+}

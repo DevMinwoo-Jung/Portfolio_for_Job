@@ -89,3 +89,7 @@
 .right__div_mediumPara {
   font-size: 2.5vw;
 }
+
+path {
+  pointer-events: none;
+}
