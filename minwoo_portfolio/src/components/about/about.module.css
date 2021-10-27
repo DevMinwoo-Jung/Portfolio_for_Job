@@ -21,7 +21,6 @@
 }
 
 .para__div {
-  border: 1px solid black;
   margin: auto;
   margin-top: 5%;
   width: 40%;
@@ -29,13 +28,20 @@
 }
 
 .introduce__header {
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: bolder;
   text-align: left;
+  font-style: italic;
+}
+
+.introduce__h1 {
+  font-size: 1.5vw;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .introduce__para {
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-style: normal;
   font-weight: normal;
   text-align: left;
@@ -50,7 +56,6 @@
   height: 60%;
 }
 .tech__div {
-  border: 1px solid black;
   width: 95vw;
   height: 95vh;
   margin: auto;
@@ -133,6 +138,7 @@
 .life__header {
   font-size: 3vw;
   font-weight: bolder;
+  font-style: italic;
 }
 
 .careerEdu__div {
