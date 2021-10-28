@@ -101,8 +101,8 @@ const Project = () => {
               </div>
             </div>
             <div className={style.logo__div}>
-              <BsGithub className={style.logo}/><p className={style.tooltip__show}> Github</p>     
-              <BiShowAlt className={style.logo}/><p className={style.tooltip__show}> Show Live</p>
+              <BsGithub className={style.logo}/><a href="https://github.com/DevMinwoo-Jung/JavaScript101/tree/main/WebApIs/myGame" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}> Github</p> </a>
+              <BiShowAlt className={style.logo}/><a href="https://google.com" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}> Show Live</p> </a>
             </div>
           </div>
           <div className={style.project}>
@@ -127,8 +127,8 @@ const Project = () => {
               </div>
             </div>
             <div className={style.logo__div}>
-              <BsGithub className={style.logo}  /><p className={style.tooltip__show}> Github</p>     
-              <BiShowAlt className={style.logo} /><p className={style.tooltip__show}> Show Live</p>
+              <BsGithub className={style.logo}  /><a href="https://github.com/DevMinwoo-Jung/Portfolio_for_Job" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}> Github</p> </a>
+              <BiShowAlt className={style.logo} /><a href="https://google.com" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}> Show Live</p> </a>
             </div>
           </div>
           <div className={style.project}>
@@ -153,8 +153,8 @@ const Project = () => {
               </div>
             </div>
             <div className={style.logo__div}>
-              <BsGithub className={style.logo}  /><p className={style.tooltip__show}> Github</p>     
-              <BiShowAlt className={style.logo} /><p className={style.tooltip__show}> Show Live</p>
+              <BsGithub className={style.logo}  /><a href="https://github.com/DevMinwoo-Jung/Portfolio_for_Job" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}>Github</p></a>     
+              <BiShowAlt className={style.logo} /><a href="https://google.com" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}> Show Live</p></a>
             </div>
           </div>
           <div className={style.project} onMouseEnter={showProjectSpecFour} onMouseLeave={hideProjectSpecFour}>
@@ -179,8 +179,8 @@ const Project = () => {
               </div>
             </div>
             <div className={style.logo__div}>
-              <BsGithub className={style.logo}  /><p className={style.tooltip__show}> Github</p>     
-              <BiShowAlt className={style.logo} /><p className={style.tooltip__show}> Show Live</p>
+              <BsGithub className={style.logo}  /><a href="https://github.com/DevMinwoo-Jung/Portfolio_for_Job" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}> Github</p> </a>
+              <BiShowAlt className={style.logo} /><a href="https://google.com" target="_blank" rel="noreferrer"> <p className={style.tooltip__show}> Show Live</p> </a>
             </div>
           </div>
         </Slider>

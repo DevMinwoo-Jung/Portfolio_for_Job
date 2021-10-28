@@ -54,14 +54,18 @@
 }
 
 .copyBtn {
-  transition: all 1s ease-in-out;
   width: 1.5rem;
   height: 1.5rem;
+  margin-top: 2vh;
 }
 
 .copyBtn:hover {
   transform: scale(1.05);
+  transition: all 1s ease-in-out;
   cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2vh;
 }
 
 .tooltip__show {

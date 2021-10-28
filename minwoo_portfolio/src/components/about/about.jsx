@@ -1,8 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import style from './about.module.css';
 import {FaArrowDown} from 'react-icons/fa';
+import ProgressBar from 'react-bootstrap/ProgressBar';
+
 
 const About = () => {
+
+const nowNum = {low: 40, middle: 60, intermediate: 80};
+
+
 
   const [divOne, setDivOne] = useState(true);
   const [divTwo, setDivTwo] = useState(false);
@@ -50,7 +56,10 @@ const About = () => {
           </span>
         </div>
         <div className={style.photo__div}>
-
+        </div>
+        <div className={style.arrow__div}>
+          <FaArrowDown className={style.arrow}/>
+          <span className={style.arrowPara}>Scroll Down to see more contents!</span>
         </div>
       </div>
       <div className={style.tech__div}>
@@ -69,7 +78,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/javascript.png" alt="" /><p className={style.skillName}>javascript</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -77,7 +86,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/react.png" alt="" /><p className={style.skillName}>react</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -85,7 +94,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/typescript.png" alt="" /><p className={style.skillName}>typescript</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -93,7 +102,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/html.png" alt="" /><p className={style.skillName}>html</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -101,7 +110,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/css.png" alt="" /><p className={style.skillName}>css</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                   </div>
                 </div>
             </div>
@@ -112,7 +121,7 @@ const About = () => {
                 <img className={style.img} src="/imgs/icon/styled-components.png" alt="" /><p className={style.skillName}>styled-components</p>
                 </div>
                 <div className={style.skillGraph__div}>
-                  <span className={style.graphInnder__div}></span>
+                  <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
                 </div>
               </div>
               <div className={style.skillDesc__div}>
@@ -120,7 +129,7 @@ const About = () => {
                   <img className={style.img} src="/imgs/icon/react-router.png" alt="" /><p className={style.skillName}>react-router</p>
                 </div>
                 <div className={style.skillGraph__div}>
-                  <span className={style.graphInnder__div}></span>
+                  <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                 </div>
               </div>
             </div>
@@ -137,7 +146,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/javascript.png" alt="" /><p className={style.skillName}>javascript</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -145,7 +154,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/react.png" alt="" /><p className={style.skillName}>react</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -153,7 +162,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/typescript.png" alt="" /><p className={style.skillName}>typescript</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -161,7 +170,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/html.png" alt="" /><p className={style.skillName}>html</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -169,7 +178,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/css.png" alt="" /><p className={style.skillName}>css</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                   </div>
                 </div>
             </div>
@@ -181,7 +190,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/java.png" alt="" /><p className={style.skillName}>java</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -189,7 +198,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/strtus.png" alt="" /><p className={style.skillName}>strtus</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -197,7 +206,7 @@ const About = () => {
                     <img className={style.img} src="/imgs/icon/spring.png" alt="" /><p className={style.skillName}>spring</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
                   </div>
                 </div>
               </div>
@@ -209,7 +218,7 @@ const About = () => {
                   <img className={style.img} src="/imgs/icon/oracle.png" alt="" /><p className={style.skillName}>orcale</p>
                 </div>
                 <div className={style.skillGraph__div}>
-                  <span className={style.graphInnder__div}></span>
+                  <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                 </div>
               </div>
             </div>
@@ -220,7 +229,7 @@ const About = () => {
                   <img className={style.img} src="/imgs/icon/styled-components.png" alt="" /><p className={style.skillName}>styled-components</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
                   </div>
                 </div>
                 <div className={style.skillDesc__div}>
@@ -228,7 +237,7 @@ const About = () => {
                   <img className={style.img} src="/imgs/icon/react-router.png" alt="" /><p className={style.skillName}>react-router</p>
                   </div>
                   <div className={style.skillGraph__div}>
-                    <span className={style.graphInnder__div}></span>
+                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
                   </div>
                 </div>
             </div>

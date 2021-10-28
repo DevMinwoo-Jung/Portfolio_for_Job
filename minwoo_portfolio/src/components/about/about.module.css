@@ -24,7 +24,7 @@
   margin: auto;
   margin-top: 5%;
   width: 40%;
-  height: 70%;
+  height: 50vh;
 }
 
 .introduce__header {
@@ -55,6 +55,32 @@
   width: 40%;
   height: 60%;
 }
+
+.arrow__div {
+  position: absolute;
+  top: 90vh;
+  left: 40vw;
+  animation-name: twinkle;
+  animation-duration: 1s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.arrow {
+  width: 2vw;
+  height: 2vh;
+}
+
 .tech__div {
   width: 95vw;
   height: 95vh;
@@ -111,13 +137,14 @@
 
 .imgAndIcon__div {
   display: flex;
-  width: 10vw;
+  width: 11vw;
   height: 5vh;
 }
 
 .skillName {
   font-style: italic;
   font-weight: normal;
+  padding-top: 1vw;
 }
 
 .skillGraph__div {
@@ -128,10 +155,21 @@
   margin: 1rem;
 }
 
+.progressBar {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: white !important;
+  border-radius: 0rem !important;
+  height: 100% !important;
+}
+
 .life__div {
   width: 95vw;
   height: 95vh;
   margin: auto;
+  margin-top: 5vh;
   text-align: center;
 }
 
