@@ -1,17 +1,54 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import style from './main.module.css';
+import {MdReplay} from 'react-icons/md';
 
 const Main = () => {
+  const intro = ['안녕하세요.', '프론트엔드 개발자', '정민우입니다.', '제 포트폴리오 사이트에','방문해주셔서 감사합니다!'];
+  const lenght = intro.length;
+
+  const [copy, setCopy] = useState([...intro]);
+  const [showBtn, setShowBtn] = useState(false);
+  let [output, setOutput] = useState('');
+
+  const reshow = () => {
+    setOutput('');
+    setCopy([...intro]);
+    setShowBtn(false);
+  }
+
+  useEffect(() => {
+    let count = 0;
+    const interval = setInterval(() => {
+      setOutput(copy[count]);
+      count++;
+      if(count === lenght){
+        clearInterval(interval);
+        setShowBtn(true);
+      }
+    }, 4000);
+  }, [copy, lenght]);
+
+
   return (
     <div className={style.main}>
+      <div className={style.intro__div}>
+        <p className={style.intro}>{output}</p>
+        {
+          showBtn === true && 
+          <div  className={style.introRe__btn} onClick={reshow}>
+          <span>다시보기</span><MdReplay/>
+          </div>
+        }
+      </div>
       <div className={style.top__div}>
-        <span className={style.para}>Front-End Developer</span>
+        <p className={style.para}>Front-End</p>
+        <p className={style.para}> Developer</p>
       </div>
       <div className={style.img__div}>
         <img className={style.img} src="/imgs/me.png" alt="" />
       </div>
       <div className={style.bottom__div}>
-        <span className={style.para}>Jung MinWoo</span>
+        <p className={style.para}>Jung MinWoo</p>
       </div>
     </div>
   );

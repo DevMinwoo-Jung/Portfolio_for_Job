@@ -3,10 +3,47 @@
 }
 
 .para {
-  font-size: 12.5vw;
+  font-size: 11.5vw;
   margin: 0px;
   letter-spacing: -20px;
+  font-weight: bolder;
+  margin-bottom: -10vh;
+}
+
+.intro__div {
+  position: absolute;
+  width: 35vw;
+  height: 45vh;
+  margin: 25vh 0 0 55vw;
+  text-align: center;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.intro {
+  font-size: 3vw;
+  font-style: normal;
   font-weight: lighter;
+  animation-name: twinkle;
+  animation-duration: 1s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.introRe__btn {
+  font-size: 1vw;
+  font-style: italic;
+  font-weight: lighter;
+  cursor: pointer;
+  margin-left: 1rem;
 }
 
 .top__div {
@@ -15,6 +52,6 @@
 
 .bottom__div {
   position: absolute;
-  top: 55vh;
+  top: 50vh;
   margin-left: 2%;
 }
