@@ -12,9 +12,9 @@
 
 .intro__div {
   position: absolute;
-  width: 35vw;
+  width: 50vw;
   height: 45vh;
-  margin: 25vh 0 0 55vw;
+  margin: 25vh 0 0 47vw;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .intro {
-  font-size: 3vw;
+  font-size: 4vw;
   font-style: normal;
   font-weight: lighter;
   animation-name: twinkle;
@@ -41,7 +41,7 @@
 .introRe__btn {
   font-size: 1vw;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: normal;
   cursor: pointer;
   margin-left: 1rem;
 }

@@ -25,7 +25,7 @@ const Main = () => {
         clearInterval(interval);
         setShowBtn(true);
       }
-    }, 4000);
+    }, 3000);
   }, [copy, lenght]);
 
 
