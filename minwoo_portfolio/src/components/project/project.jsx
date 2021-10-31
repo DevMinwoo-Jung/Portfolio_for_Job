@@ -185,7 +185,7 @@ const Project = () => {
           </div>
         </Slider>
         </div>
-      </div>
+      </div> 
   );
 };
 
