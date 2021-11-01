@@ -25,7 +25,7 @@ const Project = () => {
   }
   const hideProjectSpec = () => {
       setShow(false);
-      setHideIntro(false);
+      setHideIntro(false); 
 
   }
 
