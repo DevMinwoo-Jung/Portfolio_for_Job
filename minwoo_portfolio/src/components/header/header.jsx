@@ -7,7 +7,7 @@ import {
   Link,
 } from "react-router-dom";
 import About from '../about/about';
-import Project from '../project/project';
+import Projects from '../project/projects';
 import Contact from '../contact/contact';
 import Main from '../main/main';
 
@@ -36,7 +36,7 @@ const Header = () => {
         <About/>
       </Route>  
       <Route path="/project">
-        <Project/>
+        <Projects/>
       </Route>  
       <Route path="/contact">
         <Contact/>
