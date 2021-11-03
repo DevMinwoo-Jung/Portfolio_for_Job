@@ -17,7 +17,6 @@ const Project = ({project}) => {
   const hideProjectSpec = () => {
       setShow(false);
       setHideIntro(false); 
-
   }
 
   return (

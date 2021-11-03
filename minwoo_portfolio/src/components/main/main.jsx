@@ -22,10 +22,13 @@ const Main = () => {
       setOutput(copy[count]);
       count++;
       if(count === lenght){
-        clearInterval(interval);
         setShowBtn(true);
+        clearInterval(interval);
       }
     }, 3000);
+    return () => {
+      setShowBtn(false);
+    }
   }, [copy, lenght]);
 
 

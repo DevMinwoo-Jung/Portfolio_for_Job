@@ -1,0 +1,10 @@
+.content__div {
+  display: flex;
+  justify-content: center;
+}
+
+.img__div {
+  width: 80vw;
+  height: 55vh;
+  margin: 5vh 2rem 0 0;
+}

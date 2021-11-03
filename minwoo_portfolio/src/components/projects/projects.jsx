@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './project.module.css';
+import style from './projects.module.css';
 import Slider from "react-slick";
-import Project from './project';
+import Project from '../project/project';
 
 
 const Projects = () => {

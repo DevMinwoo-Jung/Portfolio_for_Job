@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import style from './header.module.css';
 import {
   BrowserRouter as Router,
@@ -7,11 +7,11 @@ import {
   Link,
 } from "react-router-dom";
 import About from '../about/about';
-import Projects from '../project/projects';
+import Projects from '../projects/projects';
 import Contact from '../contact/contact';
 import Main from '../main/main';
 
-const Header = () => {
+const Header = memo(() => {
   return (
   <Router>
     <div className={style.header}>
@@ -44,6 +44,6 @@ const Header = () => {
     </Switch>
   </Router>  
   );
-};
+});
 
 export default Header;
