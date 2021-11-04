@@ -17,7 +17,7 @@ const Projects = () => {
   const project__Obj = {
     project_one: 
             {
-              project__img: `/imgs/thumbnail4.png`, 
+              project__img: `/imgs/fishGame.bmp`, 
               project__title: 'MiniGame',
               project__para: '일정하게 움직이는 물고기를 시간내에 클릭하는 게임입니다.',
               project__contribution: '100%',
@@ -29,7 +29,7 @@ const Projects = () => {
             },
     project_two: 
             {
-              project__img: `/imgs/download.png`, 
+              project__img: `/imgs/me.bmp`, 
               project__title: 'Financial-ledger',
               project__para: '가계부를 제작하였습니다.',
               project__contribution: '100%',
