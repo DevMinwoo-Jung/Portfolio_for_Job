@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import style from './project.module.css';
 import {BiShowAlt} from 'react-icons/bi';
 import {BsGithub} from 'react-icons/bs';
-import LazyImage from 'react-lazy-blur-image';
 
 
 const Project = ({project}) => {
@@ -13,8 +12,8 @@ const Project = ({project}) => {
   const showProjectSpec = () => {
       setShow(true);
       setHideIntro(true);
-
   }
+
   const hideProjectSpec = () => {
       setShow(false);
       setHideIntro(false); 

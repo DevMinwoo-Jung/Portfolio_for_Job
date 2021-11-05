@@ -28,6 +28,7 @@ const Main = () => {
     }, 3000);
     return () => {
       setShowBtn(false);
+      clearInterval(interval);
     }
   }, [copy, lenght]);
 
