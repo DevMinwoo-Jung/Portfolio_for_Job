@@ -24,8 +24,8 @@ const Projects = () => {
               project__making__duration: '10일',
               project__detail: 'Vanila Javascript를 이용한 Mini Game으로 Javasciprt의 class, this가 그리키는 것이 무엇인지 등의 문법 이해와 DOM요소의 조작 방식을 이해하는데 도움이 되었습니다.',
               project__stack: 'Vanila Javascript',
-              project__src: 'https://github.com/DevMinwoo-Jung/JavaScript101/tree/main/WebApIs/myGame',
-              project__live: 'https://google.com'
+              project__src: 'https://github.com/DevMinwoo-Jung/miniGame',
+              project__live: 'https://devminwoo-jung.github.io/miniGame/'
             },
     project_two: 
             {

@@ -98,7 +98,8 @@
 }
 
 .logo__div {
-  margin-top: 2rem;
+  align-items: center;
+  margin-left: -6vw;
   text-align: center;
   position: relative;
   display: flex;
