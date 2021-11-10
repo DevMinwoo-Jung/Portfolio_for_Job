@@ -36,8 +36,8 @@ const Projects = () => {
               project__making__duration: '3주',
               project__detail: 'React hooks를 이용하여 가계부를 제작하여 props, usestate등 리액트 전반을 이해할 수 있는데 도움이 되었으며 cloudinary, firebase API를 이용하여 이미지 업로드, db사용을 하였습니다. 또한 react-router를 이용하였습니다.',
               project__stack: 'Javascript, React, React-router, cloudinary, firebase',
-              project__src: 'https://github.com/DevMinwoo-Jung/Portfolio_for_Job',
-              project__live: 'https://google.com'
+              project__src: 'https://github.com/DevMinwoo-Jung/financial_ledger',
+              project__live: 'https://devminwoo-jung.github.io/financial_ledger/'
             },        
     project_three: 
             {

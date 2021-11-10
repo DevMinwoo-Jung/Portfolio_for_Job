@@ -27,8 +27,8 @@ const Project = ({project}) => {
               <div className={style.img__para}>
                 <p className={style.spec__head}>{project.project__title}</p>
                 <p className={style.spec__para}>{project.project__para}</p>
-                </div>
               </div>
+            </div>
               <div className={`${show ? style.projectSpec__divShow: style.projectSpec__div}`}>
                 <div className={style.specDesc__div}>
                   <p className={style.spec__head}>#세부사항</p>
