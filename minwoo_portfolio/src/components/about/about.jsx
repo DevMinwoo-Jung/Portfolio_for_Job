@@ -8,8 +8,6 @@ const About = () => {
 
 const nowNum = {low: 40, middle: 60, intermediate: 80};
 
-
-
   const [divOne, setDivOne] = useState(true);
   const [divTwo, setDivTwo] = useState(false);
   
@@ -56,6 +54,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
           </span>
         </div>
         <div className={style.photo__div}>
+          <img className={style.photo} src="/imgs/myback.png" alt="" />
         </div>
         <div className={style.arrow__div}>
           <FaArrowDown className={style.arrow}/>
