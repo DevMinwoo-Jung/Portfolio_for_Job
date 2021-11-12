@@ -17,7 +17,7 @@ const Projects = () => {
   const project__Obj = {
     project_one: 
             {
-              project__img: `/imgs/fishGame.bmp`, 
+              project__img: `/imgs/rsz_fishgame.png`, 
               project__title: 'MiniGame',
               project__para: '일정하게 움직이는 물고기를 시간내에 클릭하는 게임입니다.',
               project__contribution: '100%',
@@ -29,7 +29,7 @@ const Projects = () => {
             },
     project_two: 
             {
-              project__img: `/imgs/ledger.png`, 
+              project__img: `/imgs/ledger_project.png`, 
               project__title: 'Financial-ledger',
               project__para: '가계부를 제작하였습니다.',
               project__contribution: '100%',
@@ -41,7 +41,7 @@ const Projects = () => {
             },        
     project_three: 
             {
-              project__img: `/imgs/homepage.png`, 
+              project__img: `/imgs/rsz_homepage.png`, 
               project__title: 'Portfolio',
               project__para: '지금 보고 계시는 포트폴리오를 제작하였습니다.',
               project__contribution: '100%',
@@ -51,18 +51,6 @@ const Projects = () => {
               project__src: 'https://github.com/DevMinwoo-Jung/Portfolio_for_Job',
               project__live: 'https://618cd0e118ceadee13a07796--boring-neumann-f31575.netlify.app'
             },
-    // project_four: 
-    //         {
-    //           project__img: `/imgs/thumbnail4.png`, 
-    //           project__title: 'MiniGame',
-    //           project__para: '일정하게 움직이는 물고기를 시간내에 클릭하는 게임입니다.',
-    //           project__contribution: '100%',
-    //           project__making__duration: '10일',
-    //           project__detail: 'Vanila Javascript를 이용한 Mini Game으로 Javasciprt의 class, this가 그리키는 것이 무엇인지 등의 문법 이해와 DOM요소의 조작 방식을 이해하는데 도움이 되었습니다.',
-    //           project__stack: 'Vanila Javascript',
-    //           project__src: 'https://github.com/DevMinwoo-Jung/JavaScript101/tree/main/WebApIs/myGame',
-    //           project__live: 'https://google.com'
-    //         },
   }
 
   return (

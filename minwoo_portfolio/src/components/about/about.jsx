@@ -54,7 +54,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
           </span>
         </div>
         <div className={style.photo__div}>
-          <img className={style.photo} src="/imgs/myback.png" alt="" />
+          <img className={style.photo} src="/imgs/rsz_myback.png" alt="" />
         </div>
         <div className={style.arrow__div}>
           <FaArrowDown className={style.arrow}/>
