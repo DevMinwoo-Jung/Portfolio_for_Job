@@ -12,7 +12,7 @@
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+  supported by Chrome, Edge, Opera and Firefox */
 }
 
 body {
@@ -38,18 +38,18 @@ a:visited {
 }
 a:hover {
   text-decoration: none;
-  color: black;
+  color: black !important;
   opacity: 0.7;
 }
 
-a:hover,
 a:active {
   text-decoration: none;
-  color: black;
+  color: black !important;
 }
 
 a {
   text-decoration: none !important;
+  color: black;
 }
 
 @keyframes App-logo-spin {

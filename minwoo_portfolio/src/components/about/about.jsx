@@ -54,7 +54,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
           </span>
         </div>
         <div className={style.photo__div}>
-          <img className={style.photo} src="/imgs/rsz_myback.png" alt="" />
+          <img className={style.photo} src="imgs/rsz_myback.png" alt="" />
         </div>
         <div className={style.arrow__div}>
           <FaArrowDown className={style.arrow}/>
@@ -74,7 +74,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               <p className={style.skill__para}>Front-end</p>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/javascript.png" alt="" /><p className={style.skillName}>javascript</p>
+                    <img className={style.img} src="imgs/icon/javascript.png" alt="" /><p className={style.skillName}>javascript</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -82,7 +82,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/react.png" alt="" /><p className={style.skillName}>react</p>
+                    <img className={style.img} src="imgs/icon/react.png" alt="" /><p className={style.skillName}>react</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
@@ -90,7 +90,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/typescript.png" alt="" /><p className={style.skillName}>typescript</p>
+                    <img className={style.img} src="imgs/icon/typescript.png" alt="" /><p className={style.skillName}>typescript</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
@@ -98,7 +98,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/html.png" alt="" /><p className={style.skillName}>html</p>
+                    <img className={style.img} src="imgs/icon/html.png" alt="" /><p className={style.skillName}>html</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -106,7 +106,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/css.png" alt="" /><p className={style.skillName}>css</p>
+                    <img className={style.img} src="imgs/icon/css.png" alt="" /><p className={style.skillName}>css</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -117,7 +117,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               <p className={style.skill__para}>Etc</p>
               <div className={style.skillDesc__div}>
                 <div className={style.imgAndIcon__div}>
-                <img className={style.img} src="/imgs/icon/styled-components.png" alt="" /><p className={style.skillName}>styled-components</p>
+                <img className={style.img} src="imgs/icon/styled-components.png" alt="" /><p className={style.skillName}>styled-components</p>
                 </div>
                 <div className={style.skillGraph__div}>
                   <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
@@ -125,7 +125,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               </div>
               <div className={style.skillDesc__div}>
                 <div className={style.imgAndIcon__div}>
-                  <img className={style.img} src="/imgs/icon/react-router.png" alt="" /><p className={style.skillName}>react-router</p>
+                  <img className={style.img} src="imgs/icon/react-router.png" alt="" /><p className={style.skillName}>react-router</p>
                 </div>
                 <div className={style.skillGraph__div}>
                   <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -142,7 +142,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               <p className={style.skill__para}>Front-end</p>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/javascript.png" alt="" /><p className={style.skillName}>javascript</p>
+                    <img className={style.img} src="imgs/icon/javascript.png" alt="" /><p className={style.skillName}>javascript</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -150,7 +150,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/react.png" alt="" /><p className={style.skillName}>react</p>
+                    <img className={style.img} src="imgs/icon/react.png" alt="" /><p className={style.skillName}>react</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
@@ -158,7 +158,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/typescript.png" alt="" /><p className={style.skillName}>typescript</p>
+                    <img className={style.img} src="imgs/icon/typescript.png" alt="" /><p className={style.skillName}>typescript</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
@@ -166,7 +166,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/html.png" alt="" /><p className={style.skillName}>html</p>
+                    <img className={style.img} src="imgs/icon/html.png" alt="" /><p className={style.skillName}>html</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -174,7 +174,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/css.png" alt="" /><p className={style.skillName}>css</p>
+                    <img className={style.img} src="imgs/icon/css.png" alt="" /><p className={style.skillName}>css</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -186,7 +186,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               <div className={style.skill__img}>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/java.png" alt="" /><p className={style.skillName}>java</p>
+                    <img className={style.img} src="imgs/icon/java.png" alt="" /><p className={style.skillName}>java</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
@@ -194,7 +194,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/strtus.png" alt="" /><p className={style.skillName}>strtus</p>
+                    <img className={style.img} src="imgs/icon/strtus.png" alt="" /><p className={style.skillName}>strtus</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
@@ -202,7 +202,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="/imgs/icon/spring.png" alt="" /><p className={style.skillName}>spring</p>
+                    <img className={style.img} src="imgs/icon/spring.png" alt="" /><p className={style.skillName}>spring</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
@@ -214,7 +214,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               <p className={style.skill__para}>Database</p>
               <div className={style.skillDesc__div}>
                 <div className={style.imgAndIcon__div}>
-                  <img className={style.img} src="/imgs/icon/oracle.png" alt="" /><p className={style.skillName}>orcale</p>
+                  <img className={style.img} src="imgs/icon/oracle.png" alt="" /><p className={style.skillName}>orcale</p>
                 </div>
                 <div className={style.skillGraph__div}>
                   <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />
@@ -225,7 +225,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               <p className={style.skill__para}>Etc</p>
               <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                  <img className={style.img} src="/imgs/icon/styled-components.png" alt="" /><p className={style.skillName}>styled-components</p>
+                  <img className={style.img} src="imgs/icon/styled-components.png" alt="" /><p className={style.skillName}>styled-components</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
@@ -233,7 +233,7 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
                 </div>
                 <div className={style.skillDesc__div}>
                   <div className={style.imgAndIcon__div}>
-                  <img className={style.img} src="/imgs/icon/react-router.png" alt="" /><p className={style.skillName}>react-router</p>
+                  <img className={style.img} src="imgs/icon/react-router.png" alt="" /><p className={style.skillName}>react-router</p>
                   </div>
                   <div className={style.skillGraph__div}>
                     <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.intermediate} label={`${nowNum.intermediate}%`} />

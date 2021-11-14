@@ -79,6 +79,8 @@
   position: relative;
   z-index: 1;
   top: -5px;
+  height: 2rem;
+  width: 10rem;
 }
 
 .email__icon {
