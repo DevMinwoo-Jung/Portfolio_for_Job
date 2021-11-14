@@ -45,11 +45,8 @@ const Main = () => {
         }
       </div>
       <div className={style.top__div}>
-        <p className={style.para}>Front-End</p>
+        <p className={style.para}>Front-End</p> 
         <p className={style.para}> Developer</p>
-      </div>
-      <div className={style.img__div}>
-        <img className={style.img} src="imgs/me.png" alt="" />
       </div>
       <div className={style.bottom__div}>
         <p className={style.para}>Jung MinWoo</p>
