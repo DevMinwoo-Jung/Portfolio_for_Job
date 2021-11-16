@@ -1,7 +1,3 @@
-:root {
-  font-size: 16px;
-}
-
 .header {
   display: flex;
   margin: auto;
@@ -33,4 +29,17 @@ a:active {
 a {
   text-decoration: none !important;
   color: black;
+}
+
+@media screen and (max-width: 1300px) {
+  .header {
+    display: flex;
+    font-size: 2rem;
+    margin: 0;
+    border-bottom: 0.1rem solid gray;
+  }
+
+  .content {
+    margin: 1rem 5rem 1rem 5rem;
+  }
 }

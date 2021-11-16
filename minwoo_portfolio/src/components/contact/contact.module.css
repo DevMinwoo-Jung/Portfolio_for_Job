@@ -49,6 +49,10 @@
   font-size: 2vw;
 }
 
+.contact__contents {
+  font-size: 2vw;
+}
+
 .contact {
   margin-top: 1rem;
 }
@@ -60,12 +64,9 @@
 }
 
 .copyBtn:hover {
-  transform: scale(1.05);
-  transition: all 1s ease-in-out;
   cursor: pointer;
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2vh;
 }
 
 .tooltip__show {
@@ -98,4 +99,78 @@
 
 path {
   pointer-events: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact {
+    display: inline-flex;
+    margin: 0;
+  }
+
+  .contact__contents {
+    font-size: 1.5rem;
+  }
+
+  .contact__Leftdiv {
+    width: 35rem;
+    height: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .contact__Rightdiv {
+    width: 40rem;
+    height: 30rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    text-align: right;
+  }
+
+  .contact__para {
+    display: flex;
+    margin-left: 3rem;
+  }
+
+  .contact__Rightpara {
+    display: block;
+  }
+
+  .bigPara {
+    margin: 0.5rem 0 0 0;
+    font-size: 10rem;
+  }
+
+  .mediumPara {
+    font-size: 4rem;
+    margin: 7rem 0 0 0;
+  }
+
+  .smallPara {
+    font-size: 2rem;
+    margin: 10rem 0 0 0;
+  }
+
+  .contacts {
+    display: block;
+    margin: 2rem 0 0 3rem;
+    font-size: 1.7rem;
+  }
+
+  .copyBtn {
+    margin-top: 0.5rem;
+  }
+
+  .copyBtn:hover {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .right__div_bigPara {
+    font-size: 4rem;
+  }
+
+  .right__div_mediumPara {
+    font-size: 2rem;
+  }
 }

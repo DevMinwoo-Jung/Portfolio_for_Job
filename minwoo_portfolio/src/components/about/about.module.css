@@ -23,29 +23,32 @@
 .para__div {
   margin: auto;
   margin-top: 5%;
-  width: 40%;
+  width: 45%;
   height: 50vh;
 }
 
 .introduce__header {
-  font-size: 2.5vw;
+  font-size: 2vw;
+  font-family: "Abhaya Libre", serif;
   font-weight: bolder;
   text-align: left;
-  font-style: italic;
+  font-style: normal;
 }
 
 .introduce__h1 {
   font-size: 1.5vw;
+  font-family: "Abhaya Libre", serif;
   font-weight: lighter;
-  font-style: italic;
+  font-style: normal;
 }
 
 .introduce__para {
-  font-size: 1vw;
+  font-family: "Abhaya Libre", serif;
+  font-size: 1rem;
   font-style: normal;
   font-weight: normal;
   text-align: left;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1vw;
 }
 
 .photo__div {
@@ -104,6 +107,11 @@
   cursor: pointer;
 }
 
+.skills__div {
+  width: 100vw;
+  height: 100vh;
+}
+
 .skills {
   display: block;
   margin-left: 5%;
@@ -113,8 +121,9 @@
   padding-top: 3%;
   margin: auto;
   font-size: 3vw;
-  font-style: italic;
-  margin-bottom: 1%;
+  font-weight: bolder;
+  font-style: normal;
+  font-family: "Abhaya Libre", serif;
 }
 
 .img {
@@ -173,14 +182,15 @@
   width: 95vw;
   height: 95vh;
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 10vh;
   text-align: center;
 }
 
 .life__header {
   font-size: 3vw;
   font-weight: bolder;
-  font-style: italic;
+  font-style: normal;
+  font-family: "Abhaya Libre", serif;
 }
 
 .careerEdu__div {
@@ -194,5 +204,143 @@
 .innder__header {
   font-size: 2vw;
   font-weight: bold;
-  font-style: italic;
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+  .introduce__div {
+    width: 80rem;
+    height: 35rem;
+    display: flex;
+    margin: auto;
+  }
+
+  .para__div {
+    margin: auto;
+    margin-top: 5%;
+    width: 35rem;
+    height: 25rem;
+    display: block;
+  }
+
+  .introduce__header {
+    font-size: 2rem;
+  }
+
+  .introduce__h1 {
+    font-size: 1.5rem;
+    font-family: "Abhaya Libre", serif;
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+  .introduce__para {
+    font-family: "Abhaya Libre", serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    letter-spacing: 0.1vw;
+  }
+
+  .arrow__div {
+    position: absolute;
+    top: 34rem;
+  }
+
+  .tech__div {
+    width: 80rem;
+    height: 45rem;
+    margin: 0;
+  }
+
+  .showBtn__div {
+    font-weight: bold;
+    font-size: 1.5rem;
+    top: 7rem;
+    right: 10px;
+    margin: 2rem 4rem 0 0;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .skills {
+    margin-left: 5rem;
+  }
+
+  .tech__para {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    margin-left: 20rem;
+    width: 40rem;
+    position: relative;
+  }
+
+  .skill__para {
+    font-size: 1.5rem;
+  }
+
+  .skillDesc__div {
+    display: inline-flex;
+    margin-left: -7rem;
+  }
+
+  .imgAndIcon__div {
+    width: 10rem;
+    height: 2.5rem;
+  }
+
+  .skillName {
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .skillGraph__div {
+    width: 55rem;
+    height: 0.8rem;
+    border: 1px solid black;
+    vertical-align: middle;
+    margin: 1rem;
+  }
+
+  .progressBar {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: white !important;
+    border-radius: 0rem !important;
+    height: 100% !important;
+  }
+
+  .life__div {
+    width: 80rem;
+    height: 45rem;
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+  .life__header {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: "Abhaya Libre", serif;
+  }
+
+  .careerEdu__div {
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .innder__header {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+  }
 }

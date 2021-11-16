@@ -55,9 +55,6 @@ const Contact = () => {
         <div className={style.contact}>
           <span className={style.contact__contents}><AiFillGithub/>Github: <a href="https://github.com/DevMinwoo-Jung">Go to Github</a></span>
         </div>
-        <div className={style.contact}>
-          <span className={style.contact__contents}><SiBloglovin/>Blog: <a href="https://dev-minwoo.tistory.com/">Go to Blog</a></span>
-        </div>
       </div>
     </div>
     <div className={style.contact__Rightdiv}>

@@ -8,3 +8,11 @@
   height: 55vh;
   margin: 5vh 2rem 0 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .img__div {
+    width: 70rem;
+    height: 30rem;
+    margin: 2rem 2rem 0 0;
+  }
+}

@@ -63,12 +63,8 @@
   font-size: 1.5vw;
   font-weight: bolder;
   font-style: normal;
-}
-
-.spec__head {
-  font-size: 1.5vw;
-  font-weight: bolder;
-  font-style: italic;
+  font-family: "Abhaya Libre", serif;
+  margin: 0px;
 }
 
 .spec__para {
@@ -132,4 +128,60 @@
   width: 5vw;
   height: 4vh;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .detail__div {
+    width: 50rem;
+    height: 30rem;
+  }
+
+  .img {
+    height: 10rem;
+  }
+
+  .img__para {
+    margin-top: 1rem;
+  }
+
+  .desc__para {
+    font-size: 1rem;
+  }
+
+  .specDesc__div {
+    padding-top: 2vh;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+
+  .spec__head {
+    font-size: 1.2rem;
+    margin: 0px;
+  }
+
+  .spec__para {
+    font-size: 0.8rem;
+  }
+
+  .img__contatiner {
+    width: 17rem;
+    height: 23rem;
+    margin: 0 5rem 0 2rem;
+  }
+
+  .logo {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+
+  .tooltip__show {
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    width: 4rem;
+    height: 2rem;
+  }
 }

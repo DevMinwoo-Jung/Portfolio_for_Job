@@ -55,3 +55,43 @@
   top: 50vh;
   margin-left: 2%;
 }
+
+@media screen and (max-width: 1300px) {
+  .para {
+    font-size: 9rem;
+    margin: 0px;
+    letter-spacing: -20px;
+    font-weight: bolder;
+    margin-bottom: -5rem;
+  }
+
+  .intro__div {
+    position: absolute;
+    width: 45rem;
+    height: 18rem;
+    margin: 12rem 0 0 35rem;
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 3rem;
+  }
+
+  .introRe__btn {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+
+  .top__div {
+    margin-left: 2%;
+  }
+
+  .bottom__div {
+    position: absolute;
+    top: 18rem;
+    margin-left: 2%;
+  }
+}
