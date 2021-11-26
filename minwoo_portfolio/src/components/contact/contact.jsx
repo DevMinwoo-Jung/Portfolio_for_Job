@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import style from './contact.module.css';
 import {BsPhone}  from 'react-icons/bs';
 import {AiOutlineMail, AiFillGithub, AiOutlineCopy} from 'react-icons/ai';
-import {SiBloglovin} from 'react-icons/si';
 
 const Contact = () => {
   const [showMsg, setShowMsg] = useState(false);

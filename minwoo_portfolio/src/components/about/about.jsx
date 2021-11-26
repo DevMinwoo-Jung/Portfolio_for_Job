@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import style from './about.module.css';
 import {FaArrowDown} from 'react-icons/fa';
 import ProgressBar from 'react-bootstrap/ProgressBar';
@@ -8,33 +8,12 @@ const About = () => {
 
 const nowNum = {low: 40, middle: 60, intermediate: 80};
 
-  const [divOne, setDivOne] = useState(true);
-  const [divTwo, setDivTwo] = useState(false);
-  
-  const showDivOne = () => {
-    setDivOne(true);
-    hideDivTwo();
-  }
-
-  const showDivTwo = () => {
-    setDivTwo(true);
-    hideDivOne();
-  }
-  
-  const hideDivOne = () => {
-    setDivOne(false);
-  }
-
-  const hideDivTwo = () => {
-    setDivTwo(false);
-  }
-
   return (
     <div className={style.about__div}>
       <div className={style.introduce__div}>
         <div className={style.para__div}>
           <p className={style.introduce__header}>About me</p>
-          <p className={style.introduce__h1}>느리더라도 꾸준하게 발전하는 개발자가 되겠습니다.</p>
+          <p className={style.introduce__h1}>꾸준하게 발전하는 개발자가 되겠습니다.</p>
           <p className={style.introduce__para}>
             호서대학교 국제업무팀에서 2년간 재직하면서 교환/어학연수 학생들 관리, 
             어학 프로그램 관리 등 꼼꼼하게 관리 하는 것에 보람을 느꼈었지만 
@@ -65,12 +44,6 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
         </div>
       </div>
       <div className={style.tech__div}>
-        <div className={style.showBtn__div}>
-            <p className={style.showBtn} onClick={showDivOne}>Main Skills</p>
-            <p className={style.showBtn} onClick={showDivTwo}>Experienced Sckills</p>
-        </div>
-        {
-          divOne === true &&
         <div className={style.skills__div}>
           <p className={style.tech__para}>Main Skills</p>
           <div className={style.skills}>
@@ -155,75 +128,6 @@ const nowNum = {low: 40, middle: 60, intermediate: 80};
               </div>
             </div>
         </div>
-        }
-        {
-          divTwo === true &&
-          <div className={style.skills__div}>
-            <p className={style.tech__para}>Experienced Skills</p>
-            <div className={style.skills}>
-              <p className={style.skill__para}>Language</p>
-              <div className={style.skill__img}>
-                <div className={style.skillDesc__div}>
-                  <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="imgs/icon/java.png" alt="" /><p className={style.skillName}>java</p>
-                  </div>
-                  <div className={style.skillGraph__div}>
-                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={style.skills}>
-              <p className={style.skill__para}>Framework</p>
-              <div className={style.skillDesc__div}>
-                  <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="imgs/icon/strtus.png" alt="" /><p className={style.skillName}>strtus</p>
-                  </div>
-                  <div className={style.skillGraph__div}>
-                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
-                  </div>
-                </div>
-                <div className={style.skillDesc__div}>
-                  <div className={style.imgAndIcon__div}>
-                    <img className={style.img} src="imgs/icon/spring.png" alt="" /><p className={style.skillName}>spring</p>
-                  </div>
-                  <div className={style.skillGraph__div}>
-                    <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
-                  </div>
-                </div>
-            </div>
-            <div className={style.skills}>
-              <p className={style.skill__para}>Database</p>
-              <div className={style.skillDesc__div}>
-                <div className={style.imgAndIcon__div}>
-                  <img className={style.img} src="imgs/icon/oracle.png" alt="" /><p className={style.skillName}>orcale</p>
-                </div>
-                <div className={style.skillGraph__div}>
-                  <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.middle} label={`${nowNum.middle}%`} />
-                </div>
-              </div>
-            </div>
-            <div className={style.skills}>
-              <p className={style.skill__para}>Etc</p>
-              <div className={style.skillDesc__div}>
-                <div className={style.imgAndIcon__div}>
-                  <img className={style.img} src="imgs/icon/jquery.png" alt="" /><p className={style.skillName}>jquery</p>
-                </div>
-                <div className={style.skillGraph__div}>
-                  <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
-                </div>
-              </div>
-              <div className={style.skillDesc__div}>
-                <div className={style.imgAndIcon__div}>
-                  <img className={style.img} src="imgs/icon/bootstrap.png" alt="" /><p className={style.skillName}>bootstrap</p>
-                </div>
-                <div className={style.skillGraph__div}>
-                  <ProgressBar className={style.progressBar} animated  variant="info" now={nowNum.low} label={`${nowNum.low}%`} />
-                </div>
-              </div>
-            </div>
-          </div>
-        }
       </div>
       <div className={style.life__div}>
         <p className={style.life__header}>Career and Eduaction</p>
