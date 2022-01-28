@@ -52,6 +52,7 @@ const Main = () => {
         <p className={style.para}>Jung MinWoo</p>
       </div>
     </div>
+    
   );
 };
 
