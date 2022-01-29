@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./about.module.css";
 import { FaArrowDown } from "react-icons/fa";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import Image from "react-bootstrap/Image";
-import Skills from '../skills/Skills';
-
+import Skills from "../skills/Skills";
 
 const About = () => {
   const nowNum = { low: 40, middle: 60, intermediate: 80 };
+  const [progressBar, setProgressBar] = useState(false);
+
+  function showProgressBar() {
+    setProgressBar(true);
+  }
+
+  function hideProgressBar(){
+    setProgressBar(false);
+  }
 
   return (
     <div className={style.about__div}>
@@ -47,14 +55,16 @@ const About = () => {
           className={style.photo__div}
         />
         <div className={style.arrow__div}>
-          <FaArrowDown className={style.arrow} />
+          <FaArrowDown className="animate-bounce m-auto" />
           <span className={style.arrowPara}>
             Scroll Down to see more contents!
           </span>
         </div>
-
       </div>
-      <Skills className=""/>
+      <div className={style.skills__div}>
+        <p className="text-center text-5xl">Main Skills</p>
+        <Skills progressBar={progressBar} showProgressBar={showProgressBar} hideProgressBar={hideProgressBar}/>
+      </div>
       <div className={style.tech__div}>
         <div className={style.skills__div}>
           <p className={style.tech__para}>Main Skills</p>

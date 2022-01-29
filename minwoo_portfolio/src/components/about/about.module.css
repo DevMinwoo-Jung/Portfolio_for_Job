@@ -67,11 +67,7 @@
   position: absolute;
   top: 90vh;
   left: 40vw;
-  animation-name: twinkle;
-  animation-duration: 1s;
-  animation-play-state: running;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+
 }
 
 @keyframes twinkle {
