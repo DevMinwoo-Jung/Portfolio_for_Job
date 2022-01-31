@@ -15,9 +15,9 @@
 
 .introduce__div {
   width: 95vw;
-  height: 100vh;
+  height: 85vh;
   display: flex;
-  margin: auto;
+  margin-left: 5vw;
 }
 
 .para__div {
@@ -64,10 +64,12 @@
 }
 
 .arrow__div {
-  position: absolute;
-  top: 90vh;
-  left: 40vw;
-
+  margin: auto;
+  margin-bottom: 10vh;
+  text-align: center;
+}
+.mdReplay{
+  text-align: center;
 }
 
 @keyframes twinkle {
@@ -86,8 +88,8 @@
 
 .tech__div {
   width: 95vw;
-  height: 95vh;
-  margin: auto;
+  height: 75vh;
+  margin-left: 5vw;
   display: block;
   text-align: center;
   justify-content: center;
@@ -179,7 +181,7 @@
   width: 95vw;
   height: 95vh;
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 7vh;
   text-align: center;
 }
 
@@ -207,7 +209,7 @@
 @media screen and (max-width: 1300px) {
   .introduce__div {
     width: 80rem;
-    height: 35rem;
+    height: 29rem;
     display: flex;
     margin: auto;
   }
@@ -241,13 +243,14 @@
   }
 
   .arrow__div {
-    position: absolute;
-    top: 34rem;
+    margin: auto;
+    margin-bottom: 10vh;
+    text-align: center;
   }
 
   .tech__div {
     width: 80rem;
-    height: 45rem;
+    height: 30rem;
     margin: 0;
   }
 
@@ -314,7 +317,7 @@
 
   .life__div {
     width: 80rem;
-    height: 45rem;
+    height: 35rem;
     margin: auto;
     margin-top: 10rem;
     text-align: center;
@@ -330,7 +333,7 @@
   .careerEdu__div {
     text-align: left;
     margin-left: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-size: 1rem;
     font-weight: 300;
   }

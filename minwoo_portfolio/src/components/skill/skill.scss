@@ -1,0 +1,41 @@
+@import "../../common/reset";
+
+@mixin skills-div {
+  position: relative;
+  border: 1px solid black;
+}
+
+@mixin progressBar{
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+@include mobile {
+  .mobile-grid{
+    grid-column: 6;
+    grid-row: 3;
+  }
+
+  .skills-div{
+    @include skills-div;
+    width: 5rem;
+    height: 5rem;
+  
+  }
+}
+
+@include laptop {
+  .skills-div{
+    @include skills-div;
+  
+  }
+}
+
+@include desktop {
+  .skills-div {
+    @include skills-div;
+  
+  }
+}

@@ -51,6 +51,7 @@
 
 .contact__contents {
   font-size: 2vw;
+  display: flex;
 }
 
 .contact {
@@ -109,6 +110,7 @@ path {
 
   .contact__contents {
     font-size: 1.5rem;
+    display: flex;
   }
 
   .contact__Leftdiv {

@@ -11,7 +11,7 @@ import Projects from '../projects/projects';
 import Contact from '../contact/contact';
 import Main from '../main/main';
 
-const Header = memo(({projects}) => {
+const Header = memo(() => {
   return (
   <Router>
     <div className={style.header}>
@@ -36,7 +36,7 @@ const Header = memo(({projects}) => {
         <About/>
       </Route>  
       <Route path="/Portfolio_for_Job/project">
-        <Projects projects={projects}/>
+        <Projects/>
       </Route>  
       <Route path="/Portfolio_for_Job/contact">
         <Contact/>
