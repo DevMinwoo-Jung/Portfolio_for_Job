@@ -5,7 +5,7 @@ import {AiOutlineCopyrightCircle} from 'react-icons/ai';
 const Footer = memo(() => {
   return (
     <footer className={style.footer}>
-      Copyright <AiOutlineCopyrightCircle/> Minwoo Jung, All rights reserved.
+      Copyright <AiOutlineCopyrightCircle className='mt-1'/> Minwoo Jung, All rights reserved.
     </footer>
   );
 });

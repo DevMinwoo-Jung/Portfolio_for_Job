@@ -1,14 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./about.module.css";
 import { FaArrowDown } from "react-icons/fa";
 import Image from "react-bootstrap/Image";
 import Skills from "../skills/Skills";
+import { useRef } from "react";
+import { useEffect } from "react";
 
 const About = () => {
+  const [hideSkills, setHideSkills] = useState(false);
+  const scrollRef = useRef(null);
+
+
+  useEffect(() => {
+    if (!scrollRef.current) return;
+    window.addEventListener("scroll", yScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", yScrollEvent);
+    };
+  }, []);
+
+  const yScrollEvent = () => {
+    const scroll = scrollRef.current.getBoundingClientRect();
+    setHideSkills(scroll.top >= -350);
+
+  };
 
   return (
     <div className={style.about__div}>
-      <div className={style.introduce__div}>
+      <div className={style.introduce__div} ref={scrollRef}>
         <div className={style.para__div}>
           <p className={style.introduce__header}>About me</p>
           <p className={style.introduce__h1}>
@@ -39,20 +58,21 @@ const About = () => {
           </p>
         </div>
         <Image
-          src="imgs/rsz_myback.png"
+          src="imgs/my-back.jpg"
           rounded="true"
+          loading="lazy"
           className={style.photo__div}
         />
       </div>
       <div className={style.arrow__div}>
-          <FaArrowDown className="animate-bounce m-auto" />
-          <span className={style.arrowPara}>
-            Scroll Down to see more contents!
-          </span>
-        </div>
+        <FaArrowDown className="animate-bounce m-auto" />
+        <span className={style.arrowPara}>
+          Scroll Down to see more contents!
+        </span>
+      </div>
       <div className={style.skills__div}>
         <p className="text-center text-5xl">Skills</p>
-        <Skills/>
+        {!hideSkills && <Skills />}
       </div>
       <div className={style.life__div}>
         <p className={style.life__header}>Career and Eduaction</p>

@@ -54,13 +54,14 @@
 .photo__div {
   margin: auto;
   margin-top: 10%;
-  width: 40%;
-  height: 60%;
+  width: 30%;
+  height: 40%;
 }
 
 .photo {
   width: 100%;
   height: 100%;
+
 }
 
 .arrow__div {

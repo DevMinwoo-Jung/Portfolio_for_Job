@@ -6,7 +6,7 @@ const SkillProgressBar = ({ width, percent }) => {
 
   useEffect(() => {
     setValue(percent * width);
-  });
+  },[percent, width]);
 
   return (
     <div>

@@ -38,14 +38,14 @@ const Contact = () => {
       </div>
       <div className={style.contacts}>
         <div className={style.contact}>
-          <span className={style.contact__contents}><BsPhone/>Phone:{`(82)010-1111-2222 `}</span>
+          <span className={style.contact__contents}><BsPhone/>Phone:{`(82)010-8599-3012 `}</span>
           <AiOutlineCopy className={style.copyBtn} onClick={copyPhone} onMouseOver={showMessage} onMouseLeave={hideMessage}/>
           {
             showMsg === true &&  <span className={style.tooltip__show}> copy to clipboard</span>
           }
         </div>
         <div className={style.contact}>
-          <span className={style.contact__contents}><AiOutlineMail/>Email:hong@gmail.com</span> 
+          <span className={style.contact__contents}><AiOutlineMail/>Email:applejung312@gmail.com</span> 
           <AiOutlineCopy className={style.copyBtn} onClick={copyPhone} onMouseOver={showMessageEmail} onMouseLeave={hideMessageEmail}/>
           {
             showMsgEmail === true &&  <span className={style.tooltip__show}> copy to clipboard</span>
